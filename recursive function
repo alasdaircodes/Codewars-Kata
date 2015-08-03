@@ -1,0 +1,7 @@
+function reverse(str) {
+var arr = str.split("")
+  while (arr.length>=0){
+    return arr.pop + str
+    }
+}
+console.log(reverse("test"));
